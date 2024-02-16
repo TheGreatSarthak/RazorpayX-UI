@@ -125,7 +125,7 @@ const Sidebar = () => {
       </div>
       {/* app link */}
       {isOpen && (
-        <div className="flex flex-row justify-evenly p-3 text-sm fixed bottom-0 bg-[#161D41]">
+        <div className="flex flex-row justify-evenly p-3 text-sm fixed bottom-0 bg-[#161D41] w-full">
           Get RazorpayX mobile app
           <div className="ml-2">
             <FaApple />
