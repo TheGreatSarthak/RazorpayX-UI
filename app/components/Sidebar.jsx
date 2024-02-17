@@ -16,7 +16,7 @@ import SidebarOption from "./SidebarOption";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [clickedOption, setClickedOption] = useState("");
+  const [clickedOption, setClickedOption] = useState("Home");
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
