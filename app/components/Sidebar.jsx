@@ -186,7 +186,7 @@ const Sidebar = () => {
       {/* app link */}
       {isOpen && (
         <div
-          className={`flex grow flex-row justify-evenly p-3 text-sm fixed bottom-0 bg-[#161D41] transition-all duration-300`}
+          className={`flex grow flex-row justify-evenly p-3 w-64 text-sm fixed bottom-0 bg-[#161D41] transition-all duration-300`}
         >
           Get RazorpayX mobile app
           <div className="ml-2">
