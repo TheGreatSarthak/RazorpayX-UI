@@ -11,3 +11,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.clicked {
+  background-color: #2B3252;
+  color: white;
+}
