@@ -20,7 +20,7 @@ const SidebarOption = ({ name, isOpen, icon, isClicked }) => {
     >
       <div className="flex items-center justify-center">
         {isClicked ? (
-          <div className="bg-yellow-600 rounded-r-md h-6 w-1 ml-[-8px] mr-2"></div>
+          <div className="bg-yellow-600 rounded-r-md h-6 w-1 ml-[-12px] mr-2"></div>
         ) : null}
         <span
           className={`px-1 py-1 ${
