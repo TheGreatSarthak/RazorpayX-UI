@@ -16,3 +16,45 @@ body {
   background-color: #2B3252;
   color: white;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.curve1,
+.curve2,
+.curve3 {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeInSequence 1.5s infinite;
+}
+
+.curve2 {
+  animation-delay: 0.2s;
+}
+
+.curve3 {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInSequence {
+
+  0%,
+  25% {
+    opacity: 0;
+  }
+
+  30%,
+  55% {
+    opacity: 1;
+  }
+
+  60%,
+  85% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -28,7 +28,7 @@ const Sidebar = () => {
   return (
     <div
       className={`flex flex-col bg-[#161D41] h-full ${
-        isOpen ? "w-64" : "w-12"
+        isOpen ? "w-64 fixed overflow-y-auto" : "w-12 static"
       }  justify-between py-1 font-normal text-base z-10 transition-all duration-300 text-nowrap`}
       onMouseEnter={toggleSidebar}
       onMouseLeave={toggleSidebar}
