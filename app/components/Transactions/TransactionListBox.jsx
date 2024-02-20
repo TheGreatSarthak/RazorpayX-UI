@@ -21,16 +21,16 @@ const TransactionListBox = () => {
             </div>
           </div>
           <div className="flex items-center text-base text-[#59A0F7] flex-wrap">
-            <div className="py-1 px-3 my-2 mr-4">
+            <div className="py-1 px-3 my-2 mr-4 cursor-pointer">
               <RiLoopRightLine />
             </div>
-            <div className="flex items-center border px-3 py-1 border-[#59A0F7] my-2 mr-4 rounded-sm">
+            <div className="flex items-center border px-3 py-1 border-[#59A0F7] my-2 mr-4 rounded-sm hover:bg-[#08163D] cursor-pointer">
               <div className="p-1">
                 <FiLink style={{ strokeWidth: 3 }} />
               </div>
               <div>Automate Accounting</div>
             </div>
-            <div className="flex items-center border px-3 py-1 border-[#59A0F7] my-2 rounded-sm">
+            <div className="flex items-center border px-3 py-1 border-[#59A0F7] my-2 rounded-sm hover:bg-[#08163D] cursor-pointer">
               <div className="p-1">
                 <HiOutlineDownload style={{ strokeWidth: 3 }} />
               </div>

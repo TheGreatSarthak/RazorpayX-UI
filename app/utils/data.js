@@ -1,4 +1,4 @@
-export const transactionList = [
+export const transactionsList = [
   {
     date: "Thu, 15 Feb 2024",
     transactions: [
