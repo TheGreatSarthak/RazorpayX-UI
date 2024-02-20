@@ -34,7 +34,7 @@ const Sidebar = () => {
       onMouseLeave={toggleSidebar}
     >
       {/* navigation options */}
-      <div>
+      <div className="h-full">
         {/* logo */}
         {isOpen ? (
           <img

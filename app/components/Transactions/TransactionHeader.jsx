@@ -11,7 +11,7 @@ const TransactionHeader = () => {
       <div className="text-2xl font-semibold text-white">RazorpayX Lite</div>
       {/* buttons */}
       <div className="flex items-center text-[#59A0F7]">
-        <div className="flex items-center border border-[#59A0F7] rounded-sm mx-5">
+        <div className="flex items-center border border-[#59A0F7] rounded-sm mx-5 cursor-pointer">
           <div className="flex items-center py-2 px-4 hover:bg-[#08163D]">
             <div className="p-1 text-base">
               <RiAddFill />
@@ -24,10 +24,10 @@ const TransactionHeader = () => {
             </div>
           </div>
         </div>
-        <div className="text-xl">
+        <div className="text-xl cursor-pointer">
           <GoSearch style={{ strokeWidth: 1 }} />
         </div>
-        <div className="mx-6">
+        <div className="mx-6 cursor-pointer">
           <div className="text-yellow-600 text-xl transform -rotate-45 relative">
             <HiOutlineSpeakerphone />
           </div>
@@ -37,7 +37,7 @@ const TransactionHeader = () => {
             <div className="curve3 text-xl">)</div>
           </div>
         </div>
-        <div className="text-2xl">
+        <div className="text-2xl cursor-pointer">
           <LuUserCog style={{ strokeWidth: 2 }} />
         </div>
       </div>

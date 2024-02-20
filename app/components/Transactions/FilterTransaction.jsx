@@ -17,14 +17,14 @@ const FilterTransaction = () => {
   return (
     <div className="px-6 flex flex-row items-center flex-wrap">
       {/* calendar */}
-      <div className="my-3 flex items-center text-gray-400 border border-[#1D2345] cursor-pointer rounded-sm">
+      <div className="my-2 flex items-center text-gray-400 border border-[#1D2345] cursor-pointer rounded-sm">
         <div className="text-lg px-3 py-2 ">
           <RiCalendar2Line style={{ strokeWidth: 1 }} />
         </div>
         <div className="py-2 px-6 border-l border-[#1D2345]">All time</div>
       </div>
       {/* credit-debits */}
-      <div className="my-3 flex items-center border-b border-[#1D2345] rounded-sm font-medium mx-4 cursor-pointer">
+      <div className="my-2 flex items-center border-b border-[#1D2345] rounded-sm font-medium mx-4 cursor-pointer">
         <div
           className={`py-2 w-[104px] ${
             selected === "All"
