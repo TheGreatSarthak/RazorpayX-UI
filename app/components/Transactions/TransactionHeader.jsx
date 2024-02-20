@@ -8,7 +8,9 @@ const TransactionHeader = () => {
   return (
     <div className="flex flex-row justify-between py-4 px-6 items-center">
       {/* name */}
-      <div className="text-2xl font-semibold text-white">RazorpayX Lite</div>
+      <div className="text-2xl font-semibold text-white max-sm:text-lg">
+        RazorpayX Lite
+      </div>
       {/* buttons */}
       <div className="flex items-center text-[#59A0F7]">
         <div className="flex items-center border border-[#59A0F7] rounded-sm mx-5 cursor-pointer">
